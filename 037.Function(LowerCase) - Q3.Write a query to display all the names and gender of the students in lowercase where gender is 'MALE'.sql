@@ -1,0 +1,9 @@
+
+--The query for the data:
+SELECT LOWER (NAME), LOWER (GENDER) FROM STUDENTS WHERE GENDER 'MALE'; 
+
+
+
+
+
+
