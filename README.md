@@ -1,14 +1,15 @@
 
-# MySQL Cheat Sheet For Beginners Written By CodeXam
+# SQL Cheat Sheet For Beginners Written By CodeXam
+# I'm using Oracle For Practice if you wanna know more about complete Oracle your can Check [this](https://github.com/Subham-Maity/Oracle-SQL-Tutorial)
 ## Intro
 ### I am **Subham Maity**
 ### I love Programming. One of the aims I had when I started ```CodeXam``` was to make learning programming easy.
 ## Help us improve this guide - **Fork, Pull Requests, Shares and Likes are recommended**!
 # [You can follow this to learn SQL step by step](https://docs.google.com/document/d/191HwUhTPlB90zXKabnAaQMJHZUIxOm_L18DO5tZ76-U/edit)
 # [Complete DBMS A to Z for Gates/University/Interview](https://github.com/Subham-Maity/DBMS-A-Z)
-## **MySQL CheatSheet Chapters**
-* [MySQL Elements](#mysql-elements)
-* [MySQL Simple Calculations](#mysql-simple-calculations)
+## **SQL CheatSheet Chapters**
+* [SQL Elements](#mysql-elements)
+* [QL Simple Calculations](#mysql-simple-calculations)
 * [Accessing Database](#accessing-database)
 * [Creating tables](#creating-tables)
 * [Select Command](#select-command)
@@ -20,8 +21,8 @@
 * [Grouping Result](#grouping-result)
 * [Altering Table](#altering-table)
 * [Dropping Table](#dropping-table)
-* [MySQL Functions](#mysql-functions)
-* [MySQL Joins](#mysql-joins)
+* [SQL Functions](#mysql-functions)
+* [SQL Joins](#mysql-joins)
 
 
 
