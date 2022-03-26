@@ -54,7 +54,7 @@ Literals refer to a fixed data value
 Data types are means to identify the type of data.
 
 
-```
+```sql
 #Numeric
 
 INT -- Integer data type
