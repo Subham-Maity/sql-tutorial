@@ -64,3 +64,13 @@ SELECT  *  FROM STUDENT WHERE NAME='KAVITHA';
 SELECT NAME, GENDER, USN FROM STUDENT WHERE NAME='RAVI';
 ```
 # Operators
+## Q1.SELECT ENAME FROM EMP
+
+```sql
+SELECT ENAME FROM EMP
+```
+## Q2.The name of the Employee with their Salary Increased by two thousand rupees
+
+```sql
+SELECT ENAME, SAL+2000 FROM EMP
+```
