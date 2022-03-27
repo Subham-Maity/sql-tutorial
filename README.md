@@ -20,7 +20,7 @@ USE Database_Name;
 ```sql
 SELECT * FROM EMP
 ```
-#Table Create
+# Table Create
 
 ## 1.Table create
 
