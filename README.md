@@ -50,21 +50,17 @@ SELECT AGE, MARKS FROM STUDENT;
 ```sql
 SELECT NAME, USN FROM STUDENT WHERE AGE>21;
 ```
-## 2.Table Check
 
-```sql
-SELECT * FROM STUDENT
-```
 # Selection
 
-## Q1.Only Age and Marks
+## Q1.Display all the information of a particular student named
 
 ```sql
-SELECT AGE, MARKS FROM STUDENT;
+SELECT  *  FROM STUDENT WHERE NAME='KAVITHA';
 ```
 ## Q2.NAME and USN of the student whose age is greater than 21
 
 ```sql
-SELECT NAME, USN FROM STUDENT WHERE AGE>21;
+SELECT NAME, GENDER, USN FROM STUDENT WHERE NAME='RAVI';
 ```
-
+# Operators
