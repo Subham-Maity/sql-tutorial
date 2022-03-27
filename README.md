@@ -6,6 +6,6 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 
 ## Table show from Database.sql
 
-```roomsql
+```sql
 SELECT * FROM EMP
 ```
