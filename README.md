@@ -411,14 +411,14 @@ SELECT * FROM Students WHERE AGE NOT BETWEEN 15 AND 21;
 
 ```
 # NULL Operators(null)
-## (null)  - Q1. Write a query to display all the details of the student whose age is null from the student table.sql
+## (null)  - Q1. Write a query to display all the details of the student whose age is null from the student table
 
 ```sql
 SELECT * FROM STUDENT WHERE AGE IS NULL;
 
 ```
 # LIKE Operators(%)
-## (%)  - Q1. Write a query to display all the details of the student whose names start with A. - Copy - Copy.sql
+## (%)  - Q1. Write a query to display all the details of the student whose names start with A
 
 ```sql
 --Table create:
@@ -443,8 +443,140 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT * FROM Students WHERE NAME LIKE 'A%';
 
 ```
+# Logical Operators
+## (GT And Not Like)  - Q1. Write a query to display all the details of the students whose Age are greater than 18 and their names should not start with A from the STUDENT table
 
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
 
+--DESCription Students Table:
+DESC Students
 
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
 
+--The query for the data:
+SELECT * FROM Students WHERE Age>18 AND NAME NOT LIKE 'A%';
+
+```
+# Function
+## (LowerCase) - Q1. Write a query to display NAME of all the students in lowercase letters from the table STUDENT
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT LOWER (NAME) FROM STUDENTS;
+
+```
+## (UpperCase) - Q2. Write a query to display Initial letter capital of data 'NEHA'
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT INITCAP('NEHA') AS "INITIAL" FROM DUAL;
+
+```
+## (LowerCase) - Q3.Write a query to display all the names and gender of the students in lowercase where gender is 'MALE'
+
+```sql
+--The query for the data:
+SELECT LOWER (NAME), LOWER (GENDER) FROM STUDENTS WHERE GENDER 'MALE'; 
+
+```
+## (Concatenate) - Q4. Write a query to concatenate data 'Neha' & 'Ankita'
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+--You can use what you want both wark same
+SELECT 'Neha' || 'Ankita' FROM DUAL;
+SELECT CONCAT('Neha','Ankita') FROM DUAL;
+
+```
+## Function(Length) - Q5. Write a query to find the length of the string 'Neha'
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT LENGTH('Neha') FROM DUAL;
+
+```
 
