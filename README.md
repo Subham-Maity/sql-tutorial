@@ -139,6 +139,7 @@ SELECT DISTINCT AGE FROM STUDENT;
 SELECT NAME || ' AGED '  || AGE AS "STUDENT DETAILS" FROM STUDENT ;
 ```
 # Dual Table
+## Syntax
 ```sql
 SELECT * FROM DUAL;
 ```
@@ -178,7 +179,131 @@ value2,
 value3,.....);
 
 ```
+# Relation Operators
 
+## Syntax
+```sql
+SELECT column1 FROM table_name WHERE column2 > (SELECT AVG( column2) FROM table_name);
+```
+## (=) - Q1. Write a query to display USN, NAME and AGE of all the students whose age is equal to 22
 
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
 
+--DESCription Students Table:
+DESC Students
 
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT Name FROM Students WHERE Age = (SELECT AVG(22) FROM Students);
+```
+
+## (GT) - Q2. Write a query to display USN, NAME and AGE of all the students whose age is greater than 20
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT Name FROM Students WHERE Age > (SELECT AVG(20) FROM Students);
+```
+## (LT) - Q3. Write a query to display USN, NAME and AGE of all the students whose age is lesser than 20
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT Name FROM Students WHERE Age < (SELECT AVG(20) FROM Students);
+```
+## (GT=) - Q4. Write a query to display USN, NAME and AGE of all the students whose age is greater than and equal to 21
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT Name FROM Students WHERE Age >= (SELECT AVG(21) FROM Students);
+```
+## (LT=) - Q5. Write a query to display USN, NAME and AGE of all the students whose age is lesser than or equal to 22
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT Name FROM Students WHERE Age <= (SELECT AVG(21) FROM Students);
+
+```
