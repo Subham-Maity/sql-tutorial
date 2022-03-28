@@ -1,4 +1,4 @@
-````## I cover all aspects of SQL from basic to advanced 
+## I cover all aspects of SQL from basic to advanced 
 
 # Writer Intro
 I am **Subham Maity**
@@ -448,4 +448,3 @@ SELECT * FROM Students WHERE NAME LIKE 'A%';
 
 
 
-````
