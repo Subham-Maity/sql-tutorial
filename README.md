@@ -155,7 +155,7 @@ SELECT 18+52-7*4/9 FROM DUAL;
 ```sql
 SELECT * FROM DUAL;
 ```
-## Student Table Create 
+# Student Table Create 
 ```sql
 CREATE TABLE Student(
 ID number(10),
@@ -165,6 +165,18 @@ Gender varchar2(6),
 Marks number,
 SEM number
 );
+```
+# Insert data in table Syntax
+```sql
+INSERT INTO table_name(
+column1,
+column2,
+column 3,.....)
+VALUES( 
+value1,
+value2,
+value3,.....);
+
 ```
 
 
