@@ -10,6 +10,11 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**Projection**](#projection)
 * [**Selection**](#selection)
 * [**Operators**](#operators)
+* [**Alias**](#alias)
+* [**Distinct Keyword**](#distinct-keyword)
+* [**Concatenation Operation**](#concatenation-operation)
+* [**Dual Table**](#dual-table)
+* [**Description Of The Table**](#description-of-the-table)
 
 # Basic 
 
