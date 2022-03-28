@@ -332,3 +332,85 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT Name FROM Students WHERE Age != (SELECT AVG(21) FROM Students);
 
 ```
+# Between AND Operators
+## (AND)  - Q1.Write a query to display the age of the students whose Age is between 15 and 21  from the Students table
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT * FROM Students WHERE AGE BETWEEN 15 AND 21;
+
+```
+
+## (Not AND)  - Q2. Write a query to display the age of the students whose Age is not between 15 and 21  from the Students table.
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT * FROM Students WHERE AGE NOT BETWEEN 15 AND 21;
+
+```
+# IN Operators(in)
+## (in)  - Q1. Write a query to display all the information of the students whose AGE is 21 and 22 from the table
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT * FROM Students WHERE AGE NOT BETWEEN 15 AND 21;
+
+```
+
+
+
+
