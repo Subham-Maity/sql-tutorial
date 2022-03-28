@@ -13,6 +13,15 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 
 # Basic 
 
+## 0.Connect Database
+
+```sql
+--open SQLPlUS or SQLCommand Line
+connect DataBaseName
+Enter password: Yor password
+```
+
+
 ## 1.Create Database
 
 ```sql
@@ -26,7 +35,7 @@ USE Database_Name;
 ## 3.Particular Table show from Database
 
 ```sql
-SELECT * FROM EMP
+SELECT * FROM EMP;
 ```
 # Table Create
 
@@ -44,7 +53,7 @@ CREATE table "STUDENT" (
 ## 2.Table Check
 
 ```sql
-SELECT * FROM STUDENT
+SELECT * FROM STUDENT;
 ```
 # Projection
 
@@ -75,10 +84,10 @@ SELECT NAME, GENDER, USN FROM STUDENT WHERE NAME='RAVI';
 ## Q1.SELECT ENAME FROM EMP
 
 ```sql
-SELECT ENAME FROM EMP
+SELECT ENAME FROM EMP;
 ```
 ## Q2.The name of the Employee with their Salary Increased by two thousand rupees
 
 ```sql
-SELECT ENAME, SAL+2000 FROM EMP
+SELECT ENAME, SAL+2000 FROM EMP;
 ```
