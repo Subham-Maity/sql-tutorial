@@ -142,9 +142,31 @@ SELECT NAME || ' AGED '  || AGE AS "STUDENT DETAILS" FROM STUDENT ;
 ```sql
 SELECT * FROM DUAL;
 ```
+## 1.SYSTEM DATE
 
+```sql
+SELECT SYSDATE FROM DUAL;
+```
+## 2.Arithmetic Calculation
+```sql
+SELECT 18+52-7*4/9 FROM DUAL;
+```
 # Description Of The Table
 ```sql
 SELECT * FROM DUAL;
 ```
+## Student Table Create 
+```sql
+CREATE TABLE Student(
+ID number(10),
+Name varchar2(30),
+Age number,
+Gender varchar2(6),
+Marks number,
+SEM number
+);
+```
+
+
+
 
