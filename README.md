@@ -91,3 +91,55 @@ SELECT ENAME FROM EMP;
 ```sql
 SELECT ENAME, SAL+2000 FROM EMP;
 ```
+
+## Q3. Annual Salary
+
+```sql
+SELECT ENAME, SAL*12 FROM EMP;
+```
+## Q4.Half Annual Salary
+
+```sql
+SELECT ENAME, SAL*6 FROM EMP;
+```
+
+# Alias
+## Q1.Column Alias Syntax
+
+```sql
+SELECT column_name AS alias_name
+FROM table_name;
+```
+## Q2.Column Alias Example
+
+```sql
+SELECT USN AS REGISTRATION_NUMBER, NAME, GENDER, AGE AS YEARS_OLD, MARKS AS SCORE FROM STUDENT;
+
+```
+
+## Q3.Alias Table
+
+```sql
+SELECT column_name(s)
+FROM table_name AS alias_name;
+```
+# Distinct Keyword
+## Distinct Keyword
+
+```sql
+SELECT DISTINCT AGE FROM STUDENT;
+```
+# Concatenation Operation
+```sql
+SELECT NAME || ' AGED '  || AGE AS "STUDENT DETAILS" FROM STUDENT ;
+```
+# Dual Table
+```sql
+SELECT * FROM DUAL;
+```
+
+# Description Of The Table
+```sql
+SELECT * FROM DUAL;
+```
+
