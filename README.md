@@ -18,7 +18,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ```sql
 --open SQLPlUS or SQLCommand Line
 connect DataBaseName
-Enter password: Yor password
+Enter password: Your password
 ```
 
 
