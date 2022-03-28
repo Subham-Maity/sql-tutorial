@@ -1,4 +1,4 @@
-## I cover all aspects of SQL from basic to advanced 
+````## I cover all aspects of SQL from basic to advanced 
 
 # Writer Intro
 I am **Subham Maity**
@@ -410,7 +410,42 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT * FROM Students WHERE AGE NOT BETWEEN 15 AND 21;
 
 ```
+# NULL Operators(null)
+## (null)  - Q1. Write a query to display all the details of the student whose age is null from the student table.sql
+
+```sql
+SELECT * FROM STUDENT WHERE AGE IS NULL;
+
+```
+# LIKE Operators(%)
+## (%)  - Q1. Write a query to display all the details of the student whose names start with A. - Copy - Copy.sql
+
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT * FROM Students WHERE NAME LIKE 'A%';
+
+```
 
 
 
 
+
+````
