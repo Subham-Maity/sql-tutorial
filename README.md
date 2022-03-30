@@ -5,31 +5,37 @@ I am **Subham Maity**
 I love Programming. One of the aims I had when I started ```CodeXam``` was to make learning programming easy.
 
 ### Chapter list
+*****
 * [**Basic**](#basic)
+*****
 * [**Table Create**](#table-create)
 * [**Projection**](#projection)
 * [**Selection**](#selection)
+*****
 * [**Operators**](#operators)
 * [**Alias**](#alias)
 * [**Distinct Keyword**](#distinct-keyword)
 * [**Concatenation Operation**](#concatenation-operation)
 * [**Dual Table**](#dual-table)
 * [**Description Of The Table**](#description-of-the-table)
+*****
 * [**Student Table Create**](#student-table-create)
 * [**Insert data in table Syntax**](#insert-data-in-table-syntax)
+*****
 * [**Relation Operators**](#relation-operators)
 * [**Between AND Operators**](#between-and-operators)
 * [**IN Operators(in)**](#in-operatorsin)
 * [**NULL Operators(null)**](#null-operatorsnull)
 * [**LIKE Operators(%)**](#like-operators)
 * [**Logical Operators**](#logical-operators)
+*****
 * [**Function**](#function)
 * [**LowerCase Type1**](#lowercase---q1-write-a-query-to-display-name-of-all-the-students-in-lowercase-letters-from-the-table-student)
 * [**UpperCase**](#uppercase---q2-write-a-query-to-display-initial-letter-capital-of-data-neha)
 * [**LowerCase Type2**](#lowercase---q3write-a-query-to-display-all-the-names-and-gender-of-the-students-in-lowercase-where-gender-is-male)
 * [**Concatenate Function**](#concatenate---q4-write-a-query-to-concatenate-data-neha--ankita)
 * [**Length Function**](#functionlength---q5-write-a-query-to-find-the-length-of-the-string-neha)
-
+*****
 # Basic 
 
 ## 0.Connect Database
