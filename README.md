@@ -784,6 +784,12 @@ SELECT MONTHS_BETWEEN('2013-03-02', '2013-03-01') FROM dual;
 SELECT ADD_MONTHS('24-MAR-2018', 7) FROM dual;
 ```
 
+## (Next Day) - Q19. Write a query to find the date of the next Friday after the date 14-feb-2014.
+
+```sql
+ SELECT NEXT_DAY('14-FEB-14', 'FRIDAY') FROM dual;
+```
+
 
 
 
