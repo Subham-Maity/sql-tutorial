@@ -723,7 +723,7 @@ SELECT lpad('Neha',10,'@') FROM DUAL;
 
 
 ```
-## (Format type 2) - Q10. Write a query to display the data ‘Neha’ in the format ‘Neha@@@@@@’.
+## (Format type 2) - Q11. Write a query to display the data ‘Neha’ in the format ‘Neha@@@@@@’.
 ```sql
 --Table create:
 CREATE TABLE Students(
@@ -748,4 +748,17 @@ SELECT rpad('Neha',10,'@') FROM DUAL;
 
 
 ```
+
+## (Rounding) - Q12. The ROUND() function rounds a number to a specified number of decimal places.(235.415 , 1)
+```sql
+SELECT ROUND(235.415, 1) FROM DUAL;
+
+```
+## (Truncate) - Q13. Return a number truncated to 2 decimal places:(135.375, 2);
+```sql
+SELECT TRUNC(135.375, 2) FROM DUAL;
+
+```
+
+
 
