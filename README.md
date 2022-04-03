@@ -759,6 +759,10 @@ SELECT ROUND(235.415, 1) FROM DUAL;
 SELECT TRUNC(135.375, 2) FROM DUAL;
 
 ```
+## (Modulus) - Q14. MOD of 61
+```sql
+SELECT MOD(61,2) FROM DUAL;
 
+```
 
 
