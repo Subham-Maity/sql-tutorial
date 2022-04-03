@@ -764,5 +764,16 @@ SELECT TRUNC(135.375, 2) FROM DUAL;
 SELECT MOD(61,2) FROM DUAL;
 
 ```
+## (Replace NUll) - Q15.Write a query to display the age. If age is null replace it with 0.
+```sql
+SELECT NVL(AGE,0) FROM STUDENTS;
+
+```
+## (Replace NUll with If-Else) - Q16. Write a query to display the age. If age is null replace it with 0 else replace with 28.
+```sql
+SELECT NVL2(AGE,28,0) FROM STUDENTS;
+```
+
+
 
 
