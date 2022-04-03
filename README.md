@@ -574,7 +574,7 @@ SELECT 'Neha' || 'Ankita' FROM DUAL;
 SELECT CONCAT('Neha','Ankita') FROM DUAL;
 
 ```
-## Function(Length) - Q5. Write a query to find the length of the string 'Neha'
+## (Length) - Q5. Write a query to find the length of the string 'Neha'
 
 ```sql
 --Table create:
@@ -599,4 +599,52 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT LENGTH('Neha') FROM DUAL;
 
 ```
+## (substring of the string) - Q6. Write a query to display the substring of the string ‘Neha’ from 2nd position extract 3 characters.
 
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT SUBSTR('Neha',2,4) FROM DUAL;
+
+```
+## (position of the character) - Q7. Write a query to display the position of the character ‘a’ in the string ‘Neha’.
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT INSTR('Neha','a') FROM DUAL;
+
+```
