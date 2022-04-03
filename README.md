@@ -599,7 +599,7 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT LENGTH('Neha') FROM DUAL;
 
 ```
-## (substring of the string) - Q6. Write a query to display the substring of the string ‘Neha’ from 2nd position extract 3 characters.
+## (Substring of the string) - Q6. Write a query to display the substring of the string ‘Neha’ from 2nd position extract 3 characters.
 
 ```sql
 --Table create:
@@ -624,7 +624,7 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT SUBSTR('Neha',2,4) FROM DUAL;
 
 ```
-## (position of the character) - Q7. Write a query to display the position of the character ‘a’ in the string ‘Neha’.
+## (Position of the character) - Q7. Write a query to display the position of the character ‘a’ in the string ‘Neha’.
 ```sql
 --Table create:
 CREATE TABLE Students(
@@ -648,3 +648,104 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT INSTR('Neha','a') FROM DUAL;
 
 ```
+## (Trim the leading) - Q8. Write a query to trim the leading ‘N’ in the string ‘Neha’.
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT TRIM(leading 'N' from 'Neha') FROM DUAL;
+
+```
+## (Trim the trailing) - Q9. Write a query to trim the trailing ‘a’ in the string ‘Neha’.
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT TRIM(trailing 'a' from 'Neha') FROM DUAL;
+
+
+```
+
+## (Format type 1) - Q10. Write a query to display the data ‘Neha’ in the format ‘@@@@@@Neha’.
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT lpad('Neha',10,'@') FROM DUAL;
+
+
+```
+## (Format type 2) - Q10. Write a query to display the data ‘Neha’ in the format ‘Neha@@@@@@’.
+```sql
+--Table create:
+CREATE TABLE Students(
+USN int,
+NAME varchar(20),
+Age int);
+
+--DESCription Students Table:
+DESC Students
+
+--INSERTING VALUES 
+INSERT INTO Students VALUES (1,'Neha',15);
+INSERT INTO Students VALUES (2,'Sahil',13);
+INSERT INTO Students VALUES (3,'Rohan',22);
+INSERT INTO Students VALUES (4,'Ankita',22);
+INSERT INTO Students VALUES (5,'Rahul',22);
+INSERT INTO Students VALUES (6,'Swati',21);
+INSERT INTO Students VALUES (7,'Alka',18);
+
+--The query for the data:
+SELECT rpad('Neha',10,'@') FROM DUAL;
+
+
+```
+
