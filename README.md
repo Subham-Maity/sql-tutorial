@@ -776,12 +776,12 @@ SELECT NVL2(AGE,28,0) FROM STUDENTS;
 ## (No of Months Between) - Q17. Write a query to display the number of months between the dates 24-dec-2018 and 24-mar-2018.
 ```sql
 SELECT MONTHS_BETWEEN('24-DEC-2018', '24-MAR-2022') FROM DUAL;
+SELECT MONTHS_BETWEEN('2013-03-02', '2013-03-01') FROM dual;
 ```
-## (No of Months Between) - Q17. Write a query to display the number of months between the dates 24-dec-2018 and 24-mar-2018.
+## (ADD MONTHS) - Q18. Write a query in order to add 7 months for the date 24-mar-2018.
 
 ```sql
-SELECT MONTHS_BETWEEN('24-DEC-2018', '24-MAR-2022') FROM DUAL;
-SELECT MONTHS_BETWEEN('2013-03-02', '2013-03-01') FROM dual;
+SELECT ADD_MONTHS('24-MAR-2018', 7) FROM dual;
 ```
 
 
