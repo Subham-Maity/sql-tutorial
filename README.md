@@ -34,7 +34,10 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**Logical Operators**](#logical-operators)
 
 ### 2. All operators List 
-
+* [**1. Arithmetic Operators in SQL**](#relation-operators)
+* [**2. Bitwise Operators in SQL**](#relation-operators)
+* [**3. Comparison Operators in SQL**](#relation-operators)
+* [**4. Compound Operators in SQL**](#relation-operators)
 
 
 *****
