@@ -24,16 +24,23 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**Student Table Create**](#student-table-create)
 * [**Insert data in table Syntax**](#insert-data-in-table-syntax)
 *****
-### Operators as Keywords
+## Operators as Keywords
+### 1. Basic Operators Works With Question
 * [**Relation Operators**](#relation-operators)
 * [**Between AND Operators**](#between-and-operators)
 * [**IN Operators(in)**](#in-operatorsin)
 * [**NULL Operators(null)**](#null-operatorsnull)
 * [**LIKE Operators(%)**](#like-operators)
 * [**Logical Operators**](#logical-operators)
+
+### 2. All operators List 
+
+
+
 *****
+## Function
 ### 1. Basic Function Works With Question 
-* [**Function**](#function)
+[**Basic Function Start**](#basic-function-and-question)
 * [**LowerCase Type1**](#lowercase---q1-write-a-query-to-display-name-of-all-the-students-in-lowercase-letters-from-the-table-student)
 * [**UpperCase**](#uppercase---q2-write-a-query-to-display-initial-letter-capital-of-data-neha)
 * [**LowerCase Type2**](#lowercase---q3write-a-query-to-display-all-the-names-and-gender-of-the-students-in-lowercase-where-gender-is-male)
@@ -63,6 +70,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**SUM**](#sum---q26-write-a-query-to-display-the-sum-of-all-the-age-present-in-student-table)
 * [**AVG**](#avg----q27-write-a-query-to-display-the-average-of-all-the-age-present-in-student-table)
 ### 2. All Function In SQl For Advance Work 
+[**Advance Function Start**](#advance-function-all)
 * [**1. All String Functions in SQL**](#1-string-functions-in-sql)
 * [**2. All Numeric Functions in SQL**](#2-numeric-functions-in-sql)
 * [**3. All Date Functions in SQL**](#3-date-functions-in-sql)
@@ -525,6 +533,66 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT * FROM Students WHERE Age>18 AND NAME NOT LIKE 'A%';
 
 ```
+
+# Advance Function (all)
+
+
+
+### **1. Arithmetic Operators in SQL**
+
+
+```sql
++ -- Add
+– -- Subtract
+* -- Multiply
+/ -- Divide
+% -- Modulus
+```
+
+
+
+### **2. Bitwise Operators in SQL**
+
+
+```sql
+& -- Bitwise AND
+| -- Bitwise OR
+^-- Bitwise XOR
+```
+
+
+
+### **3. Comparison Operators in SQL**
+
+
+```sql
+= -- Equal to
+> -- Greater than
+< -- Less than
+>= -- Greater than or equal to
+<= -- Less than or equal to
+<> -- Not equal to
+```
+
+
+
+### **4. Compound Operators in SQL**
+
+
+```sql
++= -- Add equals
+-= -- Subtract equals
+*= -- Multiply equals
+/= -- Divide equals
+%= -- Modulo equals
+&= -- Bitwise AND equals
+^-= -- Bitwise exclusive equals
+|*= -- Bitwise OR equals
+```
+
+
+
+
 # Basic Function and Question
 
 ## (LowerCase) - Q1. Write a query to display NAME of all the students in lowercase letters from the table STUDENT
@@ -1176,3 +1244,4 @@ USER -- Same as SESSION_USER.
 
 VERSION -- Returns the current version of the MySQL powering the database.
 ```
+
