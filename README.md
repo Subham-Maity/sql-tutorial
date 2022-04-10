@@ -34,7 +34,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**UpperCase**](#uppercase---q2-write-a-query-to-display-initial-letter-capital-of-data-neha)
 * [**LowerCase Type2**](#lowercase---q3write-a-query-to-display-all-the-names-and-gender-of-the-students-in-lowercase-where-gender-is-male)
 * [**Concatenate Function**](#concatenate---q4-write-a-query-to-concatenate-data-neha--ankita)
-* [**Length Function**](#functionlength---q5-write-a-query-to-find-the-length-of-the-string-neha)
+* [**Length Function**](#length---q5-write-a-query-to-find-the-length-of-the-string-neha)
 *****
 # Basic 
 
