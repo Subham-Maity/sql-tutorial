@@ -49,7 +49,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**No of Months Between**](#modulus---q14-mod-of-61)
 * [**ADD MONTHS**](#modulus---q14-mod-of-61)
 * [**Next Day**](#modulus---q14-mod-of-61)
-* [**Modulus**](#modulus---q14-mod-of-61)
+* [**NULLIF()**](#modulus---q14-mod-of-61)
 * [**Modulus**](#modulus---q14-mod-of-61)
 * [**Modulus**](#modulus---q14-mod-of-61)
 * [**Modulus**](#modulus---q14-mod-of-61)
@@ -811,7 +811,15 @@ SELECT ADD_MONTHS('24-MAR-2018', 7) FROM dual;
 ```sql
  SELECT NEXT_DAY('14-FEB-14', 'FRIDAY') FROM dual;
 ```
+## (NULLIF) 
 
-
+The Oracle NULLIF() function accepts two arguments. It returns a null value if the two arguments are equal.
+```sql
+SELECT NULLIF(100,100) FROM DUAL;
+```
+In case the arguments are not equal, the NULLIF() function returns the first argument.
+```sql
+SELECT NULLIF(100,200) FROM DUAL;
+```
 
 
