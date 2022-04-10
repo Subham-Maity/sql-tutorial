@@ -6,12 +6,13 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 
 ### Chapter list
 *****
+### Miscellaneous Topics
 * [**Basic**](#basic)
-*****
 * [**Table Create**](#table-create)
 * [**Projection**](#projection)
 * [**Selection**](#selection)
 *****
+### Miscellaneous Topics
 * [**Operators**](#operators)
 * [**Alias**](#alias)
 * [**Distinct Keyword**](#distinct-keyword)
@@ -19,9 +20,11 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**Dual Table**](#dual-table)
 * [**Description Of The Table**](#description-of-the-table)
 *****
+### Table Create And Insert 
 * [**Student Table Create**](#student-table-create)
 * [**Insert data in table Syntax**](#insert-data-in-table-syntax)
 *****
+### Operators as Keywords
 * [**Relation Operators**](#relation-operators)
 * [**Between AND Operators**](#between-and-operators)
 * [**IN Operators(in)**](#in-operatorsin)
@@ -29,6 +32,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**LIKE Operators(%)**](#like-operators)
 * [**Logical Operators**](#logical-operators)
 *****
+### Function
 * [**Function**](#function)
 * [**LowerCase Type1**](#lowercase---q1-write-a-query-to-display-name-of-all-the-students-in-lowercase-letters-from-the-table-student)
 * [**UpperCase**](#uppercase---q2-write-a-query-to-display-initial-letter-capital-of-data-neha)
@@ -822,4 +826,37 @@ In case the arguments are not equal, the NULLIF() function returns the first arg
 SELECT NULLIF(100,200) FROM DUAL;
 ```
 
+## (Restricting and Sorting Data) Type 1 - Q20. Write a query to display the l_name, hire_date where the hire_date should be displayed in the format dd/mm
+```sql
+SELECT L_NAME TO_CHAR(HIRE_DATE, ’DD/MM’) FROM EMP;
+```
+## (Restricting and Sorting Data) Type 2 - Q21. Write a query to display the l_name and salary . the salary should be displayed in the format $99,999.99
+```sql
+SELECT L_NAME TO_CHAR(HIRE_DATE, ’DD/MM’) FROM EMP;
+```
+## (COUNT) Type 1 -  Q22. Write a query to display count of all the rows present in STUDENT table
+```sql
+SELECT COUNT(*) FROM STUDENTS;
+```
 
+## (COUNT) Type 2 - Q23. Write a query to display count of DISTINCT AGE present in STUDENT table
+```sql
+SELECT COUNT(AGE) FROM STUDENTS;
+```
+## (Min) -  Q24. Write a query to display the minimum of all age present in STUDENT table
+```sql
+SELECT MIN(AGE) FROM STUDENTS;
+
+```
+## (Max) -  Q25. Write a query to display the maximum of all age present in STUDENT table
+```sql
+SELECT MAX(AGE) FROM STUDENTS;
+```
+## (SUM) - Q26. Write a query to display the sum of all the age present in STUDENT table
+```sql
+SELECT SUM(AGE) FROM STUDENTS;
+```
+## (AVG) -  Q27. Write a query to display the average of all the age present in STUDENT table
+```sql
+SELECT AVG(AGE) FROM STUDENTS;
+```
