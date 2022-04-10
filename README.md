@@ -6,7 +6,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 
 ### Chapter list
 *****
-### Miscellaneous Topics
+### Basic
 * [**Basic**](#basic)
 * [**Table Create**](#table-create)
 * [**Projection**](#projection)
