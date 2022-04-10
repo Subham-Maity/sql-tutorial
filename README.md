@@ -35,6 +35,28 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**LowerCase Type2**](#lowercase---q3write-a-query-to-display-all-the-names-and-gender-of-the-students-in-lowercase-where-gender-is-male)
 * [**Concatenate Function**](#concatenate---q4-write-a-query-to-concatenate-data-neha--ankita)
 * [**Length Function**](#length---q5-write-a-query-to-find-the-length-of-the-string-neha)
+* [**Substring of the string**](#substring-of-the-string---q6-write-a-query-to-display-the-substring-of-the-string-neha-from-2nd-position-extract-3-characters)
+* [**Position of the character**](#position-of-the-character---q7-write-a-query-to-display-the-position-of-the-character-a-in-the-string-neha)
+* [**Trim the leading**](#trim-the-leading---q8-write-a-query-to-trim-the-leading-n-in-the-string-neha)
+* [**Trim the trailing**](#trim-the-trailing---q9-write-a-query-to-trim-the-trailing-a-in-the-string-neha)
+* [**Format type 1 - @@@@@@Neha**](#format-type-1---q10-write-a-query-to-display-the-data-neha-in-the-format-neha)
+* [**Format type 2 - Neha@@@@@@**](#format-type-2---q11-write-a-query-to-display-the-data-neha-in-the-format-neha)
+* [**Rounding**](#rounding---q12-the-round-function-rounds-a-number-to-a-specified-number-of-decimal-places235415--1)
+* [**Truncate**](#truncate---q13-return-a-number-truncated-to-2-decimal-places135375-2)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* [**Replace NUll**](#modulus---q14-mod-of-61)
+* [**Replace NUll with If-Else**](#modulus---q14-mod-of-61)
+* [**No of Months Between**](#modulus---q14-mod-of-61)
+* [**ADD MONTHS**](#modulus---q14-mod-of-61)
+* [**Next Day**](#modulus---q14-mod-of-61)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* [**Modulus**](#modulus---q14-mod-of-61)
+* 
 *****
 # Basic 
 
