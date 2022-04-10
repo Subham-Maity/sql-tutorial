@@ -32,7 +32,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**LIKE Operators(%)**](#like-operators)
 * [**Logical Operators**](#logical-operators)
 *****
-### Function
+### 1. Basic Function Works With Question 
 * [**Function**](#function)
 * [**LowerCase Type1**](#lowercase---q1-write-a-query-to-display-name-of-all-the-students-in-lowercase-letters-from-the-table-student)
 * [**UpperCase**](#uppercase---q2-write-a-query-to-display-initial-letter-capital-of-data-neha)
@@ -62,6 +62,9 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**Max**](#max----q25-write-a-query-to-display-the-maximum-of-all-age-present-in-student-table)
 * [**SUM**](#sum---q26-write-a-query-to-display-the-sum-of-all-the-age-present-in-student-table)
 * [**AVG**](#avg----q27-write-a-query-to-display-the-average-of-all-the-age-present-in-student-table)
+### 2. All Function In SQl For Advance Work 
+
+
 
 *****
 # Basic 
@@ -517,7 +520,8 @@ INSERT INTO Students VALUES (7,'Alka',18);
 SELECT * FROM Students WHERE Age>18 AND NAME NOT LIKE 'A%';
 
 ```
-# Function
+# Basic Function and Question
+
 ## (LowerCase) - Q1. Write a query to display NAME of all the students in lowercase letters from the table STUDENT
 
 ```sql
@@ -861,4 +865,309 @@ SELECT SUM(AGE) FROM STUDENTS;
 ## (AVG) -  Q27. Write a query to display the average of all the age present in STUDENT table
 ```sql
 SELECT AVG(AGE) FROM STUDENTS;
+```
+
+# Advance Function (all)
+
+
+## **1. String Functions in SQL**
+
+
+```sql
+ASCII -- Returns the equivalent ASCII value for a specific character.
+
+CHAR_LENGTH -- Returns the character length of a string.
+
+CHARACTER_LENGTH -- Same as CHAR_LENGTH.
+
+CONCAT -- Adds expressions together, with a minimum of 2.
+
+CONCAT_WS -- Adds expressions together, but with a separator between each value.
+
+FIELD -- Returns an index value relative to the position of a value within a list of values.
+
+FIND IN SET -- Returns the position of a string in a list of strings.
+
+FORMAT -- When passed a number, returns that number formatted to include commas (eg 3,400,000).
+
+INSERT -- Allows you to insert one string into another at a certain point, for a certain number of characters.
+
+INSTR -- Returns the position of the first time one string appears within another.
+
+LCASE -- Converts a string to lowercase.
+
+LEFT -- Starting from the left, extracts the given number of characters from a string and returns them as another.
+
+LENGTH -- Returns the length of a string, but in bytes.
+
+LOCATE -- Returns the first occurrence of one string within another,
+
+LOWER -- Same as LCASE.
+
+LPAD -- Left pads one string with another, to a specific length.
+
+LTRIM -- Removes any leading spaces from the given string.
+
+MID -- Extracts one string from another, starting from any position.
+
+POSITION -- Returns the position of the first time one substring appears within another.
+
+REPEAT -- Allows you to repeat a string
+
+REPLACE -- Allows you to replace any instances of a substring within a string, with a new substring.
+
+REVERSE	-- Reverses the string.
+
+RIGHT -- Starting from the right, extracts the given number of characters from a string and returns them as another.
+
+RPAD -- Right pads one string with another, to a specific length.
+
+RTRIM -- Removes any trailing spaces from the given string.
+
+SPACE -- Returns a string full of spaces equal to the amount you pass it.
+
+STRCMP -- Compares 2 strings for differences
+
+SUBSTR -- Extracts one substring from another, starting from any position.
+
+SUBSTRING -- Same as SUBSTR
+
+SUBSTRING_INDEX	-- Returns a substring from a string before the passed substring is found the number of times equals to the passed number.
+
+TRIM --	Removes trailing and leading spaces from the given string. Same as if you were to run LTRIM and RTRIM together.
+
+UCASE -- Converts a string to uppercase.
+
+UPPER -- Same as UCASE.
+```
+
+
+
+## **2. Numeric Functions in SQL**
+
+
+```sql
+ABS -- Returns the absolute value of the given number.
+
+ACOS -- Returns the arc cosine of the given number.
+
+ASIN -- Returns the arc sine of the given number.
+
+ATAN -- Returns the arc tangent of one or 2 given numbers.
+
+ATAN2 -- Returns the arc tangent of 2 given numbers.
+
+AVG -- Returns the average value of the given expression.
+
+CEIL -- Returns the closest whole number (integer) upwards from a given decimal point number.
+
+CEILING -- Same as CEIL.
+
+COS -- Returns the cosine of a given number.
+
+COT -- Returns the cotangent of a given number.
+
+COUNT -- Returns the amount of records that are returned by a SELECT query.
+
+DEGREES -- Converts a radians value to degrees.
+
+DIV -- Allows you to divide integers.
+
+EXP -- Returns e to the power of the given number.
+
+FLOOR -- Returns the closest whole number (integer) downwards from a given decimal point number.
+
+GREATEST -- Returns the highest value in a list of arguments.
+
+LEAST -- Returns the smallest value in a list of arguments.
+
+LN -- Returns the natural logarithm of the given number.
+
+LOG -- Returns the natural logarithm of the given number, or the logarithm of the given number to the given base.
+
+LOG10 -- Does the same as LOG, but to base 10.
+
+LOG2 -- Does the same as LOG, but to base 2.
+
+MAX -- Returns the highest value from a set of values.
+
+MIN -- Returns the lowest value from a set of values.
+
+MOD -- Returns the remainder of the given number divided by the other given number.
+
+PI -- Returns PI.
+
+POW -- Returns the value of the given number raised to the power of the other given number.
+
+POWER -- Same as POW.
+
+RADIANS -- Converts a degrees value to radians.
+
+RAND -- Returns a random number.
+
+ROUND -- Rounds the given number to the given amount of decimal places.
+
+SIGN -- Returns the sign of the given number.
+
+SIN -- Returns the sine of the given number.
+
+SQRT -- Returns the square root of the given number.
+
+SUM -- Returns the value of the given set of values combined.
+
+TAN -- Returns the tangent of the given number.
+
+TRUNCATE -- Returns a number truncated to the given number of decimal places.
+```
+
+
+
+## **3. Date Functions in SQL**
+
+
+```sql
+ADDDATE -- Adds a date interval (eg: 10 DAY) to a date (eg: 20/01/20) and returns the result (eg: 20/01/30).
+
+ADDTIME -- Adds a time interval (eg: 02:00) to a time or datetime (05:00) and returns the result (07:00).
+
+CURDATE -- Gets the current date.
+
+CURRENT_DATE -- Same as CURDATE.
+
+CURRENT_TIME -- Gest the current time.
+
+CURRENT_TIMESTAMP -- Gets the current date and time.
+
+CURTIME -- Same as CURRENT_TIME.
+
+DATE -- Extracts the date from a datetime expression.
+
+DATEDIFF -- Returns the number of days between the 2 given dates.
+
+DATE_ADD -- Same as ADDDATE.
+
+DATE_FORMAT -- Formats the date to the given pattern.
+
+DATE_SUB -- Subtracts a date interval (eg: 10 DAY) to a date (eg: 20/01/20) and returns the result (eg: 20/01/10).
+
+DAY -- Returns the day for the given date.
+
+DAYNAME -- Returns the weekday name for the given date.
+
+DAYOFWEEK -- Returns the index for the weekday for the given date.
+
+DAYOFYEAR -- Returns the day of the year for the given date.
+
+EXTRACT -- Extracts from the date the given part (eg MONTH for 20/01/20 = 01).
+
+FROM DAYS -- Returns the date from the given numeric date value.
+
+HOUR -- Returns the hour from the given date.
+
+LAST DAY -- Gets the last day of the month for the given date.
+
+LOCALTIME -- Gets the current local date and time.
+
+LOCALTIMESTAMP -- Same as LOCALTIME.
+
+MAKEDATE -- Creates a date and returns it, based on the given year and number of days values.
+
+MAKETIME -- Creates a time and returns it, based on the given hour, minute and second values.
+
+MICROSECOND -- Returns the microsecond of a given time or datetime.
+
+MINUTE -- Returns the minute of the given time or datetime.
+
+MONTH -- Returns the month of the given date.
+
+MONTHNAME -- Returns the name of the month of the given date.
+
+NOW -- Same as LOCALTIME.
+
+PERIOD_ADD -- Adds the given number of months to the given period.
+
+PERIOD_DIFF -- Returns the difference between 2 given periods.
+
+QUARTER -- Returns the year quarter for the given date.
+
+SECOND -- Returns the second of a given time or datetime.
+
+SEC_TO_TIME -- Returns a time based on the given seconds.
+
+STR_TO_DATE -- Creates a date and returns it based on the given string and format.
+
+SUBDATE -- Same as DATE_SUB.
+
+SUBTIME -- Subtracts a time interval (eg: 02:00) to a time or datetime (05:00) and returns the result (03:00).
+
+SYSDATE -- Same as LOCALTIME.
+
+TIME -- Returns the time from a given time or datetime.
+
+TIME_FORMAT -- Returns the given time in the given format.
+
+TIME_TO_SEC -- Converts and returns a time into seconds.
+
+TIMEDIFF -- Returns the difference between 2 given time/datetime expressions.
+
+TIMESTAMP -- Returns the datetime value of the given date or datetime.
+
+TO_DAYS -- Returns the total number of days that have passed from '00-00-0000' to the given date.
+
+WEEK -- Returns the week number for the given date.
+
+WEEKDAY -- Returns the weekday number for the given date.
+
+WEEKOFYEAR -- Returns the week number for the given date.
+
+YEAR -- Returns the year from the given date.
+
+YEARWEEK -- Returns the year and week number for the given date.
+```
+
+
+
+## **4. Miscellaneous Functions in SQL**
+
+
+```sql
+BIN -- Returns the given number in binary.
+
+BINARY -- Returns the given value as a binary string.
+
+CAST -- Converst one type into another.
+
+COALESCE -- From a list of values, returns the first non-null value.
+
+CONNECTION_ID -- For the current connection, returns the unique connection ID.
+
+CONV -- Converts the given number from one numeric base system into another.
+
+CONVERT -- Converts the given value into the given datatype or character set.
+
+CURRENT_USER -- Returns the user and hostname which was used to authenticate with the server.
+
+DATABASE -- Gets the name of the current database.
+
+GROUP BY -- Used alongside aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the results.
+
+HAVING -- Used in the place of WHERE with aggregate functions.
+
+IF -- If the condition is true it returns a value, otherwise it returns another value.
+
+IFNULL -- If the given expression equates to null, it returns the given value.
+
+ISNULL -- If the expression is null, it returns 1, otherwise returns 0.
+
+LAST_INSERT_ID -- For the last row which was added or updated in a table, returns the auto increment ID.
+
+NULLIF -- Compares the 2 given expressions. If they are equal, NULL is returned, otherwise the first expression is returned.
+
+SESSION_USER -- Returns the current user and hostnames.
+
+SYSTEM_USER -- Same as SESSION_USER.
+
+USER -- Same as SESSION_USER.
+
+VERSION -- Returns the current version of the MySQL powering the database.
 ```
