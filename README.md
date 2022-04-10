@@ -63,6 +63,11 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [**SUM**](#sum---q26-write-a-query-to-display-the-sum-of-all-the-age-present-in-student-table)
 * [**AVG**](#avg----q27-write-a-query-to-display-the-average-of-all-the-age-present-in-student-table)
 ### 2. All Function In SQl For Advance Work 
+* [**1. All String Functions in SQL**](#1-string-functions-in-sql)
+* [**2. All Numeric Functions in SQL**](#2-numeric-functions-in-sql)
+* [**3. All Date Functions in SQL**](#3-date-functions-in-sql)
+* [**4. All Miscellaneous Functions in SQL**](#4-miscellaneous-functions-in-sql)
+
 
 
 
